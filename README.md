@@ -1,5 +1,7 @@
 # Projeto: Controle de LEDs e Interrupções no RP2040
 
+✅ Arquivo principal: contagem.cEste é o arquivo de código-fonte principal, responsável por toda a lógica do projeto.
+
 ## 📋 Descrição do Projeto
 Este projeto tem como objetivo consolidar conceitos de interrupções em microcontroladores, debouncing de botões, e controle de LEDs comuns e endereçáveis WS2812 utilizando a placa de desenvolvimento BitDogLab e o microcontrolador RP2040.
 
@@ -34,7 +36,7 @@ Este projeto tem como objetivo consolidar conceitos de interrupções em microco
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Davileao10/Contagem)
 
-2. Compile o código usando o Pico SDK:
+2. Compile o arquivo: contagem.c usando o Pico SDK:
 bash
 mkdir build && cd build
 cmake ..
